@@ -11,7 +11,7 @@ function Section_2() {
     AOS.init();
   }, [])
   return (
-    <div className='overflow-hidden'>
+    <div className=''>
       <section id='section2' className='section_2bg position-relative'>
         <h1  data-aos="fade-up" className=' fs-52 fw-800 text-center text-white ff-plus pt-2 mt-lg-2  pt-lg-3'>Amplify and STRECH GAINS</h1>
         <Container className='container_main d-flex align-items-center justify-content-center section_2height'>
