@@ -14,7 +14,7 @@ function Section_4() {
         AOS.init();
       }, [])
     return (
-        <div className='overflow-hidden' >
+        <div className='overflow-hidden seection-line' >
             <section id='section4' className='overflow-hidden section_4graph position-relative'>
                 <Row className='align-items-center'>
                     <Col data-aos="fade-right" lg={6} className='padding_section4'>

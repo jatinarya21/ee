@@ -12,7 +12,7 @@ function Section_9() {
   }, [])
 
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden seection-line'>
       <section id='section9' className='roadmap_bg py-5'>
         <Container className='container_main py-5'>
           <Row>

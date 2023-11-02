@@ -519,6 +519,10 @@ nav ul {
 .shine_hover:focus::after {
   animation: sheen 2s forwards;
 }
+.seection-line{
+  margin-top: -5px;
+  margin-bottom: -1px;
+}
 
 @keyframes sheen {
   100% {
