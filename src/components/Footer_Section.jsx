@@ -64,8 +64,9 @@ function Footer_Section() {
                 </Container>
             </section>
             <section className='last_footer py-3'>
-                <Container className=''>
+                <Container className='d-flex justify-content-between'>
                     <h2 className='ff-raleway fs-14 opacity-75'>@Copyright 2023</h2>
+                    <h2 className='ff-raleway fs-14 opacity-75'>Privacy policy</h2>
                 </Container>
             </section>
         </div>

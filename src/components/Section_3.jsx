@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Slider from "react-slick";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 function Section_3() {
     const settings = {
         dots: true,
-        arrows:false,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -19,13 +19,15 @@ function Section_3() {
     };
     useEffect(() => {
         AOS.init();
-      }, [])
+    }, [])
     return (
-        <div className='overflow-hidden' >
+        <div className='' >
             <section id='home' className='section_3bg pt-4'>
-                <Container className='pt-5 container_main'>
-                    <h2   data-aos="fade-down" className='text-white ff-machina fs-46 fw-900 pb-2 mt-4 text-center pt-5'>Core Strategies</h2>
-                    <p  data-aos="fade-down"  className='text-white section_3para fs-16 ff-raleway text-center pb-5'>Our initial strategies use powerful burgeoning trends like Real Yield, Rebase, and others to generate cutting-edged yield innovations. These yield strategies stretch beyond the drought in stable coins and set the value for our native protocol token $EEFI. Check them out!'</p>
+                <Container className='pt-5  container_main'>
+                    <div className='d-flex flex-column justify-content-center align-items-center'>
+                        <h2 data-aos="fade-down" className='text-white ff-machina fs-46 fw-900 pb-2 mt-4 text-center pt-5'>Core Strategies</h2>
+                        <p data-aos="fade-down" className='text-white section_3para fs-16 ff-raleway text-center pb-5'>Our initial strategies use powerful burgeoning trends like Real Yield, Rebase, and others to generate cutting-edged yield innovations. These yield strategies stretch beyond the drought in stable coins and set the value for our native protocol token $EEFI. Check them out!'</p>
+                    </div>
                     <Slider {...settings}>
                         <Row data-aos="fade-down" className='d-flex align-items-center '>
                             <h1 className='card_bgtext'>$AMPL</h1>
@@ -39,8 +41,13 @@ function Section_3() {
                                         <p className='text-white opacity-75 fs-16 fw-400'>Projected Yield (APY)</p>
                                         <p className='clr-blue fs-16 fw-700 ff-inter'>7,777,777%</p>
                                     </div>
-                                    <div className='d-flex  justify-content-between pt-2'>
+                                    <div className='d-flex  justify-content-between  py-2'>
                                         <p className='text-white opacity-50 fs-16 ff-raleway'>Current Deposits</p>
+                                        <p className='text-white fs-16 ff-inter fw-500'>0.00 AMPL</p>
+                                    </div>
+                                    <div className="card_line"></div>
+                                    <div className='d-flex  justify-content-between  py-2'>
+                                        <p className='text-white opacity-50 fs-16 ff-raleway'>Max Capacity</p>
                                         <p className='text-white fs-16 ff-inter fw-500'>0.00 AMPL</p>
                                     </div>
                                 </div>
@@ -171,7 +178,7 @@ function Section_3() {
 
                             </Col>
                         </Row>
-                        
+
                     </Slider>
                 </Container>
             </section>

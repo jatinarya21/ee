@@ -18,7 +18,7 @@ import Footer_Section from './components/Footer_Section';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <Hero_Section />
       <Section_2 />
       <Section_3 />

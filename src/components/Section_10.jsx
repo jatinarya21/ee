@@ -21,7 +21,7 @@ function Section_10() {
                                     </div>
                                     <div className='d-flex gap-5 pb-5'>
                                         <input required type="text" placeholder='Email'className='contact_name pb-3' />
-                                        <input required type="text" placeholder='Phone Number'className='contact_name pb-3' />
+                                        <input required type="number" placeholder='Phone Number'className='contact_name pb-3' />
                                     </div>
                                     <textarea required name="" placeholder='Message' id="" cols="143" rows="5"></textarea>
                                 <span className='d-flex justify-content-center pt-5 mt-2'><button className='contact-btn text-white  fs-20 ff-raleway text-center shine_hover'>SUBMIT'</button></span>

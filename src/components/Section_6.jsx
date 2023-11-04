@@ -31,8 +31,10 @@ function Section_6() {
       <div className='overflow-hidden' >
           <section className='py-5'>
               <Container className='container_main py-5'>
-                  <h2 data-aos="fade-right" className='fs-46  pt-4 clr-blue text-center ff-machina fw-800'>Future Use Cases (Strategies)</h2>
-                  <p data-aos="fade-right" className='ff-raleway fs-16 fw-400 section_6padding text-center pt-2 pb-5'>Elastic Protocol will continue to pioneer an expanding ecosystem of yield strategies that will cater to DeFi users across a range of blockchains, communities, and interests. Each will help in generating sustainable yield and expanding the utility of the native utility token $EEFI. Here is some of what we are planning and looking into:</p>
+                  <div className='d-flex flex-column align-items-center'>
+                      <h2 data-aos="fade-right" className='fs-46  pt-4 clr-blue  ff-machina fw-800'>Future Use Cases (Strategies)</h2>
+                      <p data-aos="fade-right" className='ff-raleway fs-16 fw-400 section_6width text-center pt-2 pb-5'>Elastic Protocol will continue to pioneer an expanding ecosystem of yield strategies that will cater to DeFi users across a range of blockchains, communities, and interests. Each will help in generating sustainable yield and expanding the utility of the native utility token $EEFI. Here is some of what we are planning and looking into:</p>
+                  </div>
                     <Row className='pb-3 justify-content-center'>
                       <Col data-aos="fade-down" md={6} lg={6} xl={4} className='pt-4 d-flex justify-content-center justify-content-md-end'>
                           <div className="hover_card position-relative">

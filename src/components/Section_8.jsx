@@ -19,36 +19,36 @@ function Section_8() {
       return (
             <div className='pt-5 overflow-hidden'>
                   <section id='section8' className='pt-5 mt-5'>
-                        <Container className="container_main py-5">
+                        <Container className="container_main py-5 px-lg-5">
                               <Row className='py-5'>
                                     <h2 data-aos="fade-down" className='pb-3 text-center ff-machina fs-46 fw-800 clr-blue'>Ecosystem Partners</h2>
                                     <Col data-aos="fade-right" sm={6} xl={4} className='d-flex justify-content-center  justify-content-md-end  justify-content-xl-center '>
-                                          <div className='blue-box mt-5 cursor shine_hover'>
+                                          <div className='blue-box mt-5 cursor grayscale_hover shine_hover'>
                                                 <img src={partner_1} alt="" className='w-100' />
                                           </div>
                                     </Col>
                                     <Col data-aos="fade-right" sm={6} xl={4} className='d-flex justify-content-center  justify-content-md-start justify-content-xl-center '>
-                                          <div className='blue-box mt-5 cursor shine_hover'>
+                                          <div className='blue-box mt-5 cursor grayscale_hover shine_hover'>
                                                 <img src={partner_2} alt="" className='w-100' />
                                           </div>
                                     </Col>
                                     <Col data-aos="fade-right" sm={6} xl={4} className='d-flex justify-content-center  justify-content-md-end justify-content-xl-center '>
-                                          <div className='blue-box mt-5 cursor shine_hover'>
-                                                <img src={partner_3} alt="" className='w-100' />
+                                          <div className='blue-box mt-5 cursor grayscale_hover shine_hover'>
+                                                <img  src={partner_3} alt="" className='w-100 platform_img3' />
                                           </div>
                                     </Col>
                                     <Col data-aos="fade-right" sm={6} xl={4} className='d-flex justify-content-center  justify-content-md-start justify-content-xl-center '>
-                                          <div className='blue-box mt-5 cursor shine_hover'>
+                                          <div className='blue-box mt-5 cursor grayscale_hover shine_hover'>
                                                 <img src={partner_4} alt="" className='w-100' />
                                           </div>
                                     </Col>
                                     <Col data-aos="fade-right" sm={6} xl={4} className='d-flex justify-content-center  justify-content-md-end  justify-content-xl-center '>
-                                          <div className='blue-box mt-5 cursor shine_hover'>
+                                          <div className='blue-box mt-5 cursor grayscale_hover shine_hover'>
                                                 <img src={partner_5} alt="" className='w-100' />
                                           </div>
                                     </Col>
                                     <Col data-aos="fade-right" sm={6} xl={4} className='d-flex justify-content-center  justify-content-md-start justify-content-xl-center '>
-                                          <div className='blue-box mt-5 cursor shine_hover'>
+                                          <div className='blue-box mt-5 cursor grayscale_hover shine_hover'>
                                                 <img src={partner_6} alt="" className='w-100' />
                                           </div>
                                     </Col>
